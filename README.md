@@ -27,7 +27,7 @@ object ContratoDB {
 
 > ***MANEJA LA CREACIÓN O LA ACTUALIZACIÓN DE LA BASE DE DATOS (CREA LAS 4 COLUMNAS)***
 
-```
+```kotlin
 class DatabaseHelper(context: Context) : SQLiteOpenHelper(
     context,
     "Escuela.db",
@@ -67,7 +67,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(
 
 > ***EJECUTA LAS OPERACIONES CRUD AUTOMÁTICAMENTE AL INICIAR (EN MIS ARCHIVOS; INSERTA DOS ESTUDIANTES, CONSULTA, ACTUALIZA LA EDAD DE ESOS ESTUDIANTES, ELIMINA UNO, VUELVE A CONSULTAR)***
 
-```
+```kotlin
 package com.example.sqlite
 
 import android.content.ContentValues
