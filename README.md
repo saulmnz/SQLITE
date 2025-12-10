@@ -3,9 +3,9 @@
 >[!NOTE]
 > ***EL SIGUIENTE CÓDIGO DEMUESTRA OPERACIONES BÁSICAS CON SQL SIGUIENDO LA GUÍA: https://developer.android.com/training/data-storage/sqlite?hl=es-419 | PARA PROBAR QUE EL PROGRAMA FUNCIONE CORRECTAMENTE DEBEREMOS CORRERLO Y COMPROBAR EL LOGCAT CONFORME FUNCIONARON TODAS LAS SENTENCIAS SQL 🦂***
 
-### ARCHIVOS PRINCIPALES 🐟
+## ARCHIVOS PRINCIPALES 🐟
 
-#### ContratoDB.kt 🐏
+### ContratoDB.kt 🐏
 
 > ***DEFINE LA ESTRUCTURA DE LA BASE DE DATOS***
 
@@ -23,7 +23,7 @@ object ContratoDB {
 
 ---
 
-#### DatabaseHelper.kt 🏹
+### DatabaseHelper.kt 🏹
 
 > ***MANEJA LA CREACIÓN O LA ACTUALIZACIÓN DE LA BASE DE DATOS (CREA LAS 4 COLUMNAS)***
 
@@ -63,7 +63,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(
 
 ---
 
-#### MainActivity.kt 🦁
+### MainActivity.kt 🦁
 
 > ***EJECUTA LAS OPERACIONES CRUD AUTOMÁTICAMENTE AL INICIAR (EN MIS ARCHIVOS; INSERTA DOS ESTUDIANTES, CONSULTA, ACTUALIZA LA EDAD DE ESOS ESTUDIANTES, ELIMINA UNO, VUELVE A CONSULTAR)***
 
