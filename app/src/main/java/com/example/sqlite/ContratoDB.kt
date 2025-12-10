@@ -1,6 +1,5 @@
 package com.example.sqlite
 
-// ARCHIVO: app/src/main/java/com/example/sqlite/ContratoDB.kt
 object ContratoDB {
     object Estudiantes {
         // DEFINE _ID MANUALMENTE
